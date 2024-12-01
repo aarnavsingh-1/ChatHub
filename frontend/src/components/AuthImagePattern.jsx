@@ -1,8 +1,8 @@
 import { LogOut, MessageSquare, Settings, User } from "lucide-react";
-import dayjs from "dayjs";
+
 
 const AuthImagePattern = ({ title, subtitle }) => {
-  const currentTime = dayjs().format('HH:mm'); // Current time in 24-hour format (e.g., 12:46)
+ 
 
   return (
     <div className="hidden lg:flex items-center justify-center bg-base-200 p-12">
